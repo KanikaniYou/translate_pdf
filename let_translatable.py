@@ -11,8 +11,6 @@ if __name__ == '__main__':
 				for line in l:
 					text += str(line).rstrip('\n')
 				
-			print(text)
-			print("="*10)
 			path_w = "eng_txt/" + file_name
 			with open(path_w, mode='w') as f:
 				f.write(text)
