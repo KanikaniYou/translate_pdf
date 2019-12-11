@@ -27,14 +27,14 @@ def split_text(text):
     from_google = ""
     
 
-    for index, sen in enumerate(sen_list):
+    for index, sen in enumerate(sen_list[:-1]):
         to_google_sen += sen + '. '
         if len(to_google_sen)>1000:
             from_google += jsonConversion(post_text(to_google_sen)) +'\n'
             time.sleep(1)
             
             to_google_sen = ""
-        if index == len(sen_list):
+        if index == len(sen_list)-2:
             from_google += jsonConversion(post_text(to_google_sen))
             time.sleep(1)
     return from_google
