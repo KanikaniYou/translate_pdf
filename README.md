@@ -1,5 +1,5 @@
 # translate_pdf
-Translate PDF files(EN to JP)
+Translate text in PDF files(EN to JP) and output as text files.
 # Requirement
 
 * python3.6.8
