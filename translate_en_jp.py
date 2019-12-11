@@ -17,7 +17,6 @@ def post_text(text):
     
 def jsonConversion(jsonStr):
     data = json.loads(jsonStr)
-    print(data["data"]["translations"][0]["translatedText"])
     return data["data"]["translations"][0]["translatedText"]
     
 def split_text(text):
