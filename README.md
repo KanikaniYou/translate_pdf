@@ -1,4 +1,4 @@
-# translate_pdf
+# translate pdfs
 Translate text in PDF files(EN to JP) and output as text files.
 # Requirement
 
