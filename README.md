@@ -22,7 +22,7 @@ https://cloud.google.com/translate/docs/
 git clone https://github.com/KanikaniYou/translate_pdf
 cd translate_pdf
 
-#Place the PDF file you want to translate in pdf_source.
+#Place the PDF files you want to translate in pdf_source.
 
 python pdf_to_txt.py
 
