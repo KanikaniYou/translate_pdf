@@ -21,9 +21,13 @@ https://cloud.google.com/translate/docs/
 ```bash
 git clone https://github.com/KanikaniYou/translate_pdf
 cd translate_pdf
+```
 
-#Place the PDF files you want to translate in pdf_source.
 
+Place the PDF files you want to translate in pdf_source.
+Delete all '.gitkeep' in each folder.
+
+```
 python pdf_to_txt.py
 
 #Delete unnecessary parts in the text file if you need.
